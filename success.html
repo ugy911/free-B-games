@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registation complete.</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: azure;
+        }
+        .box {
+            text-align: center;
+            padding: 40px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .check{
+            font-size: 60px;
+        }
+        h1{
+            color: #2ecc71;
+        }
+        p{
+            color: #555;
+        }
+        .loader{
+            margin-top: 20px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #2ecc71;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s liner infinite;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @keyframes spin {
+            0% { transform rotate(0deg); }
+            100% { transform: rotate(360deg);}
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="check">✔️</div>
+        <h1> the Registration is done successfully</h1>
+        <p>pleas wait a moment...</p>
+        <div class="loader"></div>
+    </div>
+
+    <script>
+        setTimeout(()=> {
+
+        }, 5000);
+    </script>
+</body>
+</html>

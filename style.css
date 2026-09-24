@@ -1,0 +1,22 @@
+h1{
+    color:blue;
+    text-align: center;
+}
+h4{
+    color: rgb(221, 214, 226);
+    font-size: 200%;
+}
+body{
+    background-image: url(NoM81CX.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+label{
+    color: rgb(115, 28, 197);
+    text-align: start;
+}
+h2{
+    color: blueviolet;
+}
